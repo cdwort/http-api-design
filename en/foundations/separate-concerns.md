@@ -1,9 +1,10 @@
 #### Separate Concerns for Easy Understanding
 
 Heroku's APIs serve two different audiences: customers using the API directly and clients which provide more sophisticated experiences.
-Key clients include Dashboard and CLI.
+Key clients include Dashboard and CLI. 
 
 For our direct API users, we want to keep our APIs clear and easy to understand.
+Builders of clients often start out looking like direct API consumers, exploring the API to understand how to build something.
 
 Towards this goal we keep things simple while designing by separating the concerns between the
 different parts of the request and response cycle. Keeping simple rules here
