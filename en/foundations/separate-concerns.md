@@ -1,4 +1,4 @@
-#### Separate Concerns for Easy Understanding
+#### Separate Concerns for Direct Users
 
 Heroku's APIs serve two different audiences: customers using the API directly and clients which provide more sophisticated experiences.
 Key clients include Dashboard and CLI. 
